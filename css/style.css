@@ -1,0 +1,79 @@
+/* 
+  kleuren 
+  #D52929 donker rood
+  #666666 grijs
+  #F2C2C2 rose
+  #D92B2B rood
+  #D98825 geel
+
+    } */
+
+    .background {
+        background: linear-gradient(to bottom,#666666, #D52929);  /
+      }     
+      
+      .textkleur {
+        color: #e4ece3; 
+      }     
+
+      html, body {
+        box-sizing: content-box;
+        background-color: #f4efed;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(22, 21, 21);
+      }
+      a, a:hover {
+        text-decoration: none;
+        color:  #D98825;
+      }
+      
+      .bb-rood {
+        color: #9a290f;
+      }
+      
+        #text-background {
+          background-image: url('../assets/voorblad.jpg');
+          background-size: 100% auto; /* Of gebruik 'contain' als je de hele afbeelding zichtbaar wilt maken */
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 50px 0; /* Voeg wat ruimte toe rondom de tekst */
+      }
+      
+      img.trans-image {
+          opacity: 0.5;
+          filter: alpha(opacity=50); /* Voor IE8 en ouder */
+          }
+      
+          .themed-grid-col {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+            background-color: rgba(86, 61, 124, .15);
+            border: 1px solid rgba(86, 61, 124, .2);
+          }
+        
+        
+        /* X-Small devices (portrait phones, less than 576px)
+        No media query for `xs` since this is the default in Bootstrap */
+        
+        /* Small devices (landscape phones, 576px and up)*/
+        @media (min-width: 576px) {}
+        
+        /* Medium devices (tablets, 768px and up)*/
+        @media (min-width: 768px) {}
+        
+        /* Large devices (desktops, 992px and up)*/
+        @media (min-width: 992px) {}
+        
+        /* X-Large devices (large desktops, 1200px and up)*/
+        @media (min-width: 1200px) {}
+        
+        /* XX-Large devices (larger desktops, 1400px and up)*/
+        @media (min-width: 1400px) {
+          .kleur-xxl {
+            background-color: #cf04beb4;
+          }
+        }
+      
+      
